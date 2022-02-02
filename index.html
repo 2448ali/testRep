@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <script src="login/js/script.js"></script>
+    <script>
+        var auth = JSON.parse(getCookie('auth'));
+
+        if(auth && auth.login){
+            if(auth.login == '9fe11528017e48cc026a1b7ba0e2778a' && auth.password == '81dc9bdb52d04dc20036dbd8313ed055'){
+               
+            }else{
+            window.location.href = '/login';
+            }
+                console.log(auth);
+
+        }else{
+            window.location.href = '/login';
+
+        }
+    </script>
+    <div class="first-page">
+    <header class="header">
+        <a class="brand" href="#">MUKHAMMADALI KHOTAMOV</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <a href="#">HOME</a>
+            <a href="#">SERVICES</a>
+            <a href="#">WORK</a>
+            <a href="#">SKILLS</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACTS</a>
+        </div>
+    </header>
+    <section class="main" id="main">
+        <div class="content">
+            <h2>Hello, I`m<br> <span>ALI</span></h2>
+            <div class="animated-text">
+                <h3>FRONTEND DEVELOPER</h3>
+                <h3>FRONTEND DEVELOPER</h3>
+                <h3>FRONTEND DEVELOPER</h3>
+            </div>
+            <a href="#" class="btn">See my work</a>
+            <div class="media-icons">
+                <a href="https://www.instagram.com/_ali1y/" target="popup"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+    </div>
+    <section class="about" id="about">
+        <div class="title reveal">
+            <div class="section-title">ABOUT ME</div>
+        </div>
+        <div class="content">
+            <div class="column col-left reveal">
+                <div class="img-card">
+                    <img src="Recourses/rendiansyah-Gh6vZQLjg5k-unsplash.jpg" alt="">
+                </div>
+            </div>
+            <div class="column col-right reveal">
+                <h2 class="content-title">Hey there! I`m Mukhammadali </h2>
+                <p class="paragraph-text">Nihil consequatur nemo tempore saepe sequi hic eius rem dolores rerum, magni beatae, voluptatem ullam. Voluptates, quasi, ut facere aliquam nobis cum vero in obcaecati eius distinctio numquam culpa ipsam voluptatum. Harum ullam atque reiciendis fuga consequuntur eum a quasi officiis reprehenderit aspernatur, voluptate assumenda, recusandae itaque obcaecati quia. Porro, pariatur nobis.</p><br>
+                <p class="paragraph-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil consequatur nemo tempore saepe sequi hic eius rem dolores rerum, magni beatae, voluptatem ullam. Voluptates, quasi, ut facere aliquam nobis cum vero in obcaecati eius distinctio numquam culpa ipsam voluptatum. Harum ullam atque reiciendis fuga consequuntur eum a quasi officiis reprehenderit aspernatur, voluptate assumenda, recusandae itaque obcaecati quia. Porro, pariatur nobis.</p>
+                <a href="#" class="btn">See more</a>
+            </div>
+    </section>
+
+
+
+
+
+    <section class="skills" id="skills">
+        <div class="title reveal"> 
+            <div class="section-title">MY SKILLS</div>
+        </div>
+        <div class="content">
+            <div class="column col-left reveal">
+                <h2 class="content-title">My Skills & Experiences</h2>
+                <p class="paragraph-text">Officiis a omnis cupiditate dolorum deserunt optio? Consequatur voluptatum illum sunt cumque quo delectus, tenetur optio! Est dolor voluptate rem? Ullam voluptatem dolores, officia cumque reiciendis eveniet nulla nihil tenetur animi quasi debitis voluptates labore molestias dicta illo repellat eos rerum assumenda nemo ex culpa ipsa facilis, earum harum. Unde, reiciendis veniam. Consequuntur totam aut explicabo earum delectus repellat, velit alias eligendi distinctio voluptate at ipsa rem corporis accusantium asperiores. Nemo totam laudantium praesentium modi est ipsa inventore similique quaerat debitis eos eius aspernatur quos beatae nisi repellendus, asperiores facere consequuntur temporibus voluptates ratione culpa saepe! Dolorum incidunt maxime temporibus!</p>
+                <a href="#" class="btn">See more</a>
+            </div>
+            <div class="column col-right reveal">
+                <div class="bar">
+                    <div class="info">
+                        <span>HTML</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="line html">
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>CSS</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="line css">
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>JavaScript</span>
+                        <span>30%</span>
+                    </div>
+                    <div class="line javascript">
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>Python</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="line python">
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>Adobe Audition</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="line adobe-audition">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+
+
+
+
+
+
+    <section class="work"><div class="title reveal">
+        <div class="section-title">WORK</div>
+    </div><a href="/Restaurant/index.html">Work</a><br><br><br>
+    <div><a href="/mumtazpoland.pl/index.html">mumtaz</a></div>
+</section>
+    <section class="services"><div class="title reveal">
+        <div class="section-title">ABOUT ME</div>
+    </div></section>
+    <section class="contacts"><div class="title reveal">
+        <div class="section-title">ABOUT ME</div>
+    </div></section>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+   
+</body>
+</html>
